@@ -5,13 +5,10 @@ set :repo_url, 'git@bitbucket.org:dukex/misetes.git'
 set :scm, :git
 set :deploy_to, "/var/www/misetes/"
 
-# set :deploy_via, :remote_cache
-# set :copy_exclude, [".git", ".DS_Store", ".gitignore", ".gitmodules"]
+set :deploy_via, :remote_cache
+set :copy_exclude, [".git", ".DS_Store", ".gitignore", ".gitmodules"]
 
 set :use_sudo, false
-set :git_shallow_clone, true
-set :git_enable_submodules, true
-set :scm_verbose, true
 
 namespace :deploy do
   desc 'Restart application'
