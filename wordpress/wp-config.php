@@ -14,11 +14,9 @@
  * @package WordPress
  */
 
-define('WPLANG', 'pt_PT');
+define('WPLANG', 'pt_BR');
 
 $table_prefix  = 'wp_';
-
-
 
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
