@@ -46,7 +46,7 @@ function misetes_setup() {
 	) );
 
 	// Enable support for Post Formats.
-	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
+	add_theme_support( 'post-formats', array('video'));# array( 'aside', 'image', 'video', 'quote', 'link' ) );
 
 	// Setup the WordPress core custom background feature.
 	// add_theme_support( 'custom-background', apply_filters( 'misetes_custom_background_args', array(
@@ -64,8 +64,8 @@ function misetes_setup() {
 	) );
 
 
- add_theme_support('post-thumbnails');
- set_post_thumbnail_size(300,300, true);
+	add_theme_support('post-thumbnails');
+	set_post_thumbnail_size(300,300, true);
 }
 endif; // misetes_setup
 add_action( 'after_setup_theme', 'misetes_setup' );
