@@ -562,28 +562,34 @@ article.type-system-serif {
       border-top: 0; }
     #secondary aside:last-child {
       border-bottom: 0; }
-  #secondary h1, #secondary caption {
+  #secondary .widget_search span {
+    color: #14438b;
+    font-weight: 700; }
+  #secondary .widget_search .search-field, #secondary .widget_search label {
+    margin: 0; }
+  #secondary h1 {
     font-size: 1em;
-    background: #14438b;
+    border-bottom: 1px solid #14438b;
     padding: 5px;
-    color: #FFF;
+    color: #14438b;
     font-weight: 700; }
   #secondary h1 + * {
     padding: 0 10px; }
   #secondary ul {
     margin: 0; }
   #secondary li {
-    margin: 10px 0;
+    margin: 8px 0;
     list-style: none;
-    line-height: 18px; }
+    line-height: 18px;
+    font-size: 15px; }
     #secondary li a {
-      font-size: 15px;
+      font-size: 14px;
       line-height: 18px; }
   #secondary #wp-calendar {
     border: none; }
     #secondary #wp-calendar caption {
       font-size: 1em;
-      background: #14438b; }
+      color: #14438b; }
     #secondary #wp-calendar tfoot {
       border: none; }
     #secondary #wp-calendar td {
@@ -628,6 +634,15 @@ article.type-system-serif {
     #secondary .widget_search input[type='submit']:disabled {
       opacity: 0.5;
       cursor: not-allowed; }
+  #secondary .widget_recent_comments li {
+    font-style: italic;
+    font-size: 13px; }
+    #secondary .widget_recent_comments li a {
+      font-style: normal;
+      text-decoration: underline;
+      font-size: 13px; }
+  #secondary .widget_recent_entries h1 {
+    margin-bottom: 8px; }
 
 .footer {
   float: left;

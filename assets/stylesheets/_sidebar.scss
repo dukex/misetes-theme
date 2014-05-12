@@ -18,11 +18,20 @@
       border-bottom: 0
     }
   }
-  h1, caption {
+  .widget_search{
+    span {
+      color: $azul;
+      font-weight: 700;
+    }
+    .search-field, label{
+      margin: 0;
+    }
+  }
+  h1 {
     font-size: 1em;
     border-bottom: 1px solid $azul;
     padding:  5px;
-    color: #FFF;
+    color: $azul;
     font-weight: 700;
   }
   h1 + * {
@@ -32,11 +41,12 @@
     margin: 0;
   }
   li {
-    margin: 10px 0;
+    margin: 8px 0;
     list-style: none;
     line-height: 18px;
+    font-size: 15px;
     a {
-      font-size: 15px;
+      font-size: 14px;
       line-height: 18px;
     }
   }
@@ -44,7 +54,7 @@
     border: none;
     caption {
       font-size: 1em;
-      background: $azul;
+      color: $azul;
     }
     tfoot {
       border: none;
@@ -70,6 +80,22 @@
       // @include position(absolute, 0.3em 0.3em 0.3em 0);
       // outline: none;
       // padding: 5px 10px;
+    }
+  }
+  .widget_recent_comments{
+    li {
+      font-style: italic;
+      font-size: 13px;
+      a {
+        font-style: normal;
+        text-decoration: underline;
+        font-size: 13px;
+      }
+    }
+  }
+  .widget_recent_entries{
+    h1 {
+      margin-bottom: 8px;
     }
   }
 }
