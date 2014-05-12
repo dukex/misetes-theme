@@ -66,6 +66,7 @@ function misetes_setup() {
 
 	add_theme_support('post-thumbnails');
 	set_post_thumbnail_size(300,300, true);
+
 }
 endif; // misetes_setup
 add_action( 'after_setup_theme', 'misetes_setup' );
