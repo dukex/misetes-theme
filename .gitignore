@@ -1,2 +1,2 @@
-wordpress/wp-content/uploads/
-development
+.sass-cache
+node_modules
