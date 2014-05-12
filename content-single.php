@@ -10,8 +10,8 @@
 		    <div class="category"><?php the_category(' '); ?></div>
 
 		<h1 class="entry-title"><?php the_title(); ?></h1>
-			  <div class="entry-meta">
-    <p>Por <?php the_author_posts_link(); ?> em <?php the_time('j \d\e F \d\e Y') ?></p>
+		<div class="entry-meta">
+    	<p>Por <?php the_author_posts_link(); ?> em <?php the_time('j \d\e F \d\e Y') ?></p>
 		</div>
 	</header><!-- .entry-header -->
 
@@ -23,7 +23,7 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	</div>
 
 	<footer class="entry-footer">
 		<?php

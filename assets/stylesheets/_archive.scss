@@ -1,0 +1,16 @@
+.archive {
+  #author-meta {
+    @include clearfix;
+    margin: 20px 0;
+    @include span-columns(18 of 18);
+    img {
+      @include span-columns(3 of 18);
+      border-radius: 100px;
+    }
+    p {
+      @include span-columns(15 of 18);
+      @include omega;
+      float: left;
+    }
+  }
+}

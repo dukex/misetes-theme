@@ -6,7 +6,7 @@ a {
 }
 
 a:visited {
-  color: darken(#14438b, 20%)
+  color: darken(#14438b, 5%)
 }
 
 img {
@@ -16,6 +16,7 @@ img {
 
 #page {
   @include outer-container;
+  padding: 0 5px;
 }
 
 #content {

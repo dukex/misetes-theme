@@ -15,11 +15,15 @@
     <img src="<?php echo get_bloginfo('template_directory');?>/images/misetes_small.png" alt="">
   </div>
   <div class="social-links">
-    <a href="#">
+    <a href="https://www.facebook.com/misetes">
       <img src="<?php echo get_bloginfo('template_directory');?>/images/icons/facebook.png" alt="">
     </a>
-    <a href="#">
+    <a href="https://www.youtube.com/channel/UCAZVmQuT-WOu0YuVbSRVqMw">
       <img src="<?php echo get_bloginfo('template_directory');?>/images/icons/youtube.png" alt="">
+    </a>
+
+    <a href="https://twitter.com/misetes">
+      <img src="<?php echo get_bloginfo('template_directory');?>/images/icons/twitter.png" alt="">
     </a>
   </div>
   <div class="footer-links">
@@ -46,13 +50,8 @@
 
   <p>Disclaimer area lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nostrum repudiandae saepe.</p>
 
-    <footer id="colophon" class="site-footer" role="contentinfo">
-    <div class="site-info">
-      <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'misetes' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'misetes' ), 'WordPress' ); ?></a>
-      <span class="sep"> | </span>
-      <?php printf( __( 'Theme: %1$s by %2$s.', 'misetes' ), 'Misetes', '<a href="http://dukex.github.io" rel="designer">Duke</a>' ); ?>
-    </div><!-- .site-info -->
-  </footer><!-- #colophon -->
+  <p id="credits"><?php printf( __( 'Theme %1$s by %2$s.', 'misetes' ), 'Misetes', '<a href="http://dukex.github.io" rel="designer">Duke</a>' ); ?>
+  </p>
 </footer>
 <?php wp_footer(); ?>
 

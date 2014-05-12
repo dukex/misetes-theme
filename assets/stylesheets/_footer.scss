@@ -25,12 +25,30 @@
     @include clearfix;
     margin-bottom: $base-line-height;
 
-    @include media($tablet-and-up) {
-      @include shift(3);
+    ul {
+      @include media($tablet-and-up) {
+        &:first-child {
+          @include shift(3);
+        }
+
+        @include span-columns(6);
+        @include omega(3n);
+        @include clearfix;
+      }
     }
+
+
+
   }
 
   .social-links {
+
+    width: 98px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    @include media($mobile) {
+      width: 102px;
+    }
     img {
       width: 30px;
     }
@@ -38,12 +56,6 @@
 
   ul {
     margin-bottom: $base-line-height*2;
-
-    @include media($tablet-and-up) {
-      @include span-columns(6);
-      @include omega(3n);
-      @include clearfix;
-    }
   }
 
   li {
@@ -78,5 +90,12 @@
     margin: auto;
     max-width: 35em;
     text-align: center;
+    a {
+      color: #FFF;
+    }
+  }
+  #credits{
+    margin-top: 10px;
+    font-style: italic;
   }
 }

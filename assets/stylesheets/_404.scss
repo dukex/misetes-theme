@@ -1,0 +1,48 @@
+.error404{
+  #primary {
+    margin-bottom: 20px;
+    @include clearfix;
+    ul {
+      li {
+        border-bottom: 1px solid $azul;
+        font-size: .7em
+      }
+    }
+  }
+  h2, h1 {
+    @include media($mobile) {
+      margin-top: 1em;
+      font-size: 1.3em;
+    }
+  }
+  h1, p {
+    text-align: center;
+  }
+  .search-form{
+    input {
+      float: right;
+    }
+    @include media($mobile) {
+      padding: 0 5px;
+      @include span-columns(4);
+
+    }
+    @include media($tablet-and-up) {
+      @include span-columns(8);
+      @include shift(8);
+      margin-bottom: 60px;
+      margin-top: 20px;
+    }
+  }
+  .widget{
+    @include media($mobile) {
+      padding: 0 5px;
+      @include span-columns(4);
+    }
+    @include media($tablet-and-up) {
+      @include span-columns(8);
+      @include omega(3n);
+      margin-bottom: 60px;
+    }
+  }
+}
