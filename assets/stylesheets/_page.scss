@@ -1,0 +1,14 @@
+body.page {
+  .mr_social_sharing_wrapper {
+    display: none;
+  }
+  #primary {
+    @include span-columns(18);
+    @include media($mobile) {
+      @include span-columns(4);
+    }
+    @include media($tablet) {
+      @include span-columns(8)
+    }
+  }
+}
