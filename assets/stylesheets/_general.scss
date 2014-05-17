@@ -20,5 +20,13 @@ img {
 }
 
 #content {
-  overflow: hidden;
+  @include clearfix;
+  margin-bottom: 15px;
+}
+
+.post-edit-link{
+  @include button(simple, lighten($azul, 10));
+  &:visited{
+    color: #FFF;
+  }
 }
