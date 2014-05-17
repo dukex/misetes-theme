@@ -2,11 +2,9 @@
   @include span-columns(5);
   @include shift(1);
   @include omega;
-  @include media($mobile) {
-    @include span-columns(4);
-  }
+
   // background: #fde6f0;
-  // border-top: 1px solid #CCC;
+  border-top: 1px solid #CCC;
   aside {
     padding: 10px 0;
     //border-bottom: 1px solid #fff1f7;
