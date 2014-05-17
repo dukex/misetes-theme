@@ -35,24 +35,15 @@ $vermelho: #ca0100;
 @import "grid-settings";
 @import "neat/neat";
 
-
-
 @import "general";
 @import "header";
+@import "navigation";
 @import "articles";
+@import "article";
 @import "sidebar";
 @import "sidebar-mobile";
 @import "footer";
 @import "404";
 @import "archive";
-
-// @import "mixins";
-
-//
-// @import "typography";
-// @import "elements";
-// @import "form";
-
-// @import "page";
-// @import "pages";
-//
+@import "page";
+@import "comments";

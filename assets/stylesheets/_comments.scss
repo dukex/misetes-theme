@@ -1,0 +1,52 @@
+#comments {
+  border-top: 1px solid #CCC;
+  margin-top: 20px;
+  padding-top: 20px;
+  #respond {
+    margin-top: 20px;
+    @include clearfix;
+    input[type=submit] {
+      float: right;
+    }
+  }
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  footer{
+    @include clearfix;
+    img {
+      float: left;
+      margin: 0 10px 0 0;
+    }
+  }
+  ol li {
+    border-top: 3px solid $azul;
+    padding-top: 5px;
+    margin-top: 25px;
+    p {
+      margin-bottom: 5px;
+    }
+    .reply a {
+      float: right;
+      font-size: .8em;
+    }
+    li {
+      border: 0;
+      margin: 1em 0 0 3.5em;
+      border-top: 1px solid $azul;
+    }
+    .comment-author  {
+      float: left;
+    }
+    .comment-metadata {
+      float: right;
+      font-size: .8em;
+      font-style: italic;
+    }
+    .comment-content{
+      @include clearfix;
+      margin-top: .5em;
+    }
+  }
+}
