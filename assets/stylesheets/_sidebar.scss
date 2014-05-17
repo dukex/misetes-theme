@@ -3,12 +3,9 @@
   @include shift(1);
   @include omega;
 
-  // background: #fde6f0;
   border-top: 1px solid #CCC;
   aside {
     padding: 10px 0;
-    //border-bottom: 1px solid #fff1f7;
-    //border-top: 1px solid #eacbd8;
     &:first-child {
       border-top: 0
     }
@@ -75,9 +72,6 @@
     input[type='submit']{
       float: right;
       @include button(simple, lighten($azul, 10));
-      // @include position(absolute, 0.3em 0.3em 0.3em 0);
-      // outline: none;
-      // padding: 5px 10px;
     }
   }
   .widget_recent_comments{
