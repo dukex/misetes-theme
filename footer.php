@@ -25,6 +25,10 @@
     <a href="https://twitter.com/misetes">
       <img src="<?php echo get_bloginfo('template_directory');?>/images/icons/twitter.png" alt="">
     </a>
+
+    <a href="<?php bloginfo('atom_url'); ?>">
+      <img src="<?php echo get_bloginfo('template_directory');?>/images/icons/rss.png" alt="">
+    </a>
   </div>
   <div class="footer-links">
     <?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
