@@ -28,11 +28,17 @@
     div {
       @include media($tablet-and-up) {
         &:first-child {
+          /*
           @include shift(3);
+          */
+          @include shift(4);
         }
-
+        /*
         @include span-columns(6);
         @include omega(3n);
+        */
+        @include span-columns(8 of 24);
+        @include omega(2n);
         @include clearfix;
       }
     }

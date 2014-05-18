@@ -34,12 +34,12 @@
     <?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
 
     <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-
+<!--
     <div>
       <ul>
-        <li><?php echo the_permalink_rss(); ?></li>
+        <li><a href="<?php bloginfo('atom_url'); ?>">Feed</a></li>
       </ul>
-    </div>
+    </div> -->
   </div>
 
   <hr>
