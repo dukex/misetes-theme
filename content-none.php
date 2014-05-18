@@ -10,8 +10,8 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php _e( 'Nothing Found', 'misetes' ); ?></h1>
-	</header><!-- .page-header -->
+		<h1 class="page-title"><?php _e( 'Nada encontrado', 'misetes' ); ?></h1>
+	</header>
 
 	<div class="page-content">
 		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
@@ -20,7 +20,7 @@
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'misetes' ); ?></p>
+			<p><?php _e( 'Desculpe, mas não encontramos nada com os termos buscados. Por favor tente palavras diferentes.', 'misetes' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php else : ?>
@@ -29,5 +29,5 @@
 			<?php get_search_form(); ?>
 
 		<?php endif; ?>
-	</div><!-- .page-content -->
-</section><!-- .no-results -->
+	</div>
+</section>

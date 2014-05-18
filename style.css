@@ -327,6 +327,18 @@ img {
   .post-edit-link:visited {
     color: #FFF; }
 
+.search-no-results #primary .search-form {
+  width: 75%;
+  margin: 30px auto;
+  border: 1px solid #14438b;
+  padding: 20px; }
+  .search-no-results #primary .search-form:after {
+    content: "";
+    display: table;
+    clear: both; }
+.search-no-results #primary .search-submit {
+  float: right; }
+
 #masthead {
   background: #FFF;
   margin: 0 auto;
@@ -438,101 +450,101 @@ img {
     padding-bottom: 3px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
-.category #primary, .home #primary, .archive #primary, .search-results #primary {
+.category #primary, .home #primary, .archive #primary, .search #primary {
   float: left;
   display: block;
   margin-right: 1.05263%;
   width: 74.73684%; }
-  .category #primary:last-child, .home #primary:last-child, .archive #primary:last-child, .search-results #primary:last-child {
+  .category #primary:last-child, .home #primary:last-child, .archive #primary:last-child, .search #primary:last-child {
     margin-right: 0; }
   @media screen and (max-width: 30em) {
-    .category #primary, .home #primary, .archive #primary, .search-results #primary {
+    .category #primary, .home #primary, .archive #primary, .search #primary {
       float: left;
       display: block;
       margin-right: 6.66667%;
       width: 100%; }
-      .category #primary:last-child, .home #primary:last-child, .archive #primary:last-child, .search-results #primary:last-child {
+      .category #primary:last-child, .home #primary:last-child, .archive #primary:last-child, .search #primary:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 30.0625em) and (max-width: 48.75em) {
-    .category #primary, .home #primary, .archive #primary, .search-results #primary {
+    .category #primary, .home #primary, .archive #primary, .search #primary {
       float: left;
       display: block;
       margin-right: 3.22581%;
       width: 100%; }
-      .category #primary:last-child, .home #primary:last-child, .archive #primary:last-child, .search-results #primary:last-child {
+      .category #primary:last-child, .home #primary:last-child, .archive #primary:last-child, .search #primary:last-child {
         margin-right: 0; } }
-.category article, .home article, .archive article, .search-results article {
+.category article, .home article, .archive article, .search article {
   border-top: 1px solid #CCC;
   padding: 20px 0 0 0;
   margin-bottom: 20px;
   height: 500px; }
   @media screen and (max-width: 30em) {
-    .category article, .home article, .archive article, .search-results article {
+    .category article, .home article, .archive article, .search article {
       margin-right: 0;
       float: left;
       display: block;
       margin-right: 6.66667%;
       width: 100%;
       height: auto; }
-      .category article:last-child, .home article:last-child, .archive article:last-child, .search-results article:last-child {
+      .category article:last-child, .home article:last-child, .archive article:last-child, .search article:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 30.0625em) and (max-width: 48.75em) {
-    .category article, .home article, .archive article, .search-results article {
+    .category article, .home article, .archive article, .search article {
       float: left;
       display: block;
       margin-right: 3.22581%;
       width: 48.3871%;
       height: 490px; }
-      .category article:nth-child(2n), .home article:nth-child(2n), .archive article:nth-child(2n), .search-results article:nth-child(2n) {
+      .category article:nth-child(2n), .home article:nth-child(2n), .archive article:nth-child(2n), .search article:nth-child(2n) {
         margin-right: 0; }
-      .category article:nth-child(2n+1), .home article:nth-child(2n+1), .archive article:nth-child(2n+1), .search-results article:nth-child(2n+1) {
+      .category article:nth-child(2n+1), .home article:nth-child(2n+1), .archive article:nth-child(2n+1), .search article:nth-child(2n+1) {
         clear: left; }
-      .category article:last-child, .home article:last-child, .archive article:last-child, .search-results article:last-child {
+      .category article:last-child, .home article:last-child, .archive article:last-child, .search article:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 48.8125em) and (max-width: 64.0625em) {
-    .category article, .home article, .archive article, .search-results article {
+    .category article, .home article, .archive article, .search article {
       float: left;
       display: block;
       margin-right: 1.40845%;
       width: 32.39437%;
       height: 430px; }
-      .category article:last-child, .home article:last-child, .archive article:last-child, .search-results article:last-child {
+      .category article:last-child, .home article:last-child, .archive article:last-child, .search article:last-child {
         margin-right: 0; }
-      .category article:nth-child(3n), .home article:nth-child(3n), .archive article:nth-child(3n), .search-results article:nth-child(3n) {
+      .category article:nth-child(3n), .home article:nth-child(3n), .archive article:nth-child(3n), .search article:nth-child(3n) {
         margin-right: 0; }
-      .category article:nth-child(3n+1), .home article:nth-child(3n+1), .archive article:nth-child(3n+1), .search-results article:nth-child(3n+1) {
+      .category article:nth-child(3n+1), .home article:nth-child(3n+1), .archive article:nth-child(3n+1), .search article:nth-child(3n+1) {
         clear: left; } }
   @media screen and (min-width: 64.0625em) {
-    .category article, .home article, .archive article, .search-results article {
+    .category article, .home article, .archive article, .search article {
       float: left;
       display: block;
       margin-right: 1.40845%;
       width: 32.39437%;
       height: 430px; }
-      .category article:last-child, .home article:last-child, .archive article:last-child, .search-results article:last-child {
+      .category article:last-child, .home article:last-child, .archive article:last-child, .search article:last-child {
         margin-right: 0; }
-      .category article:nth-child(3n), .home article:nth-child(3n), .archive article:nth-child(3n), .search-results article:nth-child(3n) {
+      .category article:nth-child(3n), .home article:nth-child(3n), .archive article:nth-child(3n), .search article:nth-child(3n) {
         margin-right: 0; }
-      .category article:nth-child(3n+1), .home article:nth-child(3n+1), .archive article:nth-child(3n+1), .search-results article:nth-child(3n+1) {
+      .category article:nth-child(3n+1), .home article:nth-child(3n+1), .archive article:nth-child(3n+1), .search article:nth-child(3n+1) {
         clear: left; } }
-  .category article img, .home article img, .archive article img, .search-results article img {
+  .category article img, .home article img, .archive article img, .search article img {
     width: 100%;
     height: auto; }
-  .category article h1, .home article h1, .archive article h1, .search-results article h1 {
+  .category article h1, .home article h1, .archive article h1, .search article h1 {
     font-size: 1.4em;
     font-family: "Lusitana", serif;
     line-height: 1.3;
     max-height: 80px;
     overflow: hidden; }
-    .category article h1 a, .home article h1 a, .archive article h1 a, .search-results article h1 a {
+    .category article h1 a, .home article h1 a, .archive article h1 a, .search article h1 a {
       color: #333;
       text-decoration: none; }
-.category nav.navigation, .home nav.navigation, .archive nav.navigation, .search-results nav.navigation {
+.category nav.navigation, .home nav.navigation, .archive nav.navigation, .search nav.navigation {
   float: left;
   display: block;
   margin-right: 1.40845%;
   width: 100%; }
-  .category nav.navigation:last-child, .home nav.navigation:last-child, .archive nav.navigation:last-child, .search-results nav.navigation:last-child {
+  .category nav.navigation:last-child, .home nav.navigation:last-child, .archive nav.navigation:last-child, .search nav.navigation:last-child {
     margin-right: 0; }
 
 article h1 {

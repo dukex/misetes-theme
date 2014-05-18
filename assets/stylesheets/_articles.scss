@@ -2,7 +2,7 @@ $serif: 'Lusitana', serif;
 $serif-2: 'Merriweather', serif;
 $sans-serif: 'Merriweather Sans', sans-serif;
 
-.category, .home, .archive, .search-results{
+.category, .home, .archive, .search{
   #primary {
     @include span-columns(18);
     @include media($mobile) {

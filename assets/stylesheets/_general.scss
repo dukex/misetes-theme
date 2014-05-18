@@ -30,3 +30,18 @@ img {
     color: #FFF;
   }
 }
+
+.search-no-results {
+  #primary {
+    .search-form{
+      width: 75%;
+      margin: 30px auto;
+      border: 1px solid $azul;
+      @include clearfix;
+      padding: 20px;
+    }
+    .search-submit {
+      float: right;
+    }
+  }
+}
