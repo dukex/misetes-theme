@@ -360,7 +360,8 @@ img {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   height: 50px;
   width: 100%;
-  z-index: 999999999; }
+  z-index: 999999999;
+  margin-top: 3em; }
   #site-navigation .menu-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -939,20 +940,20 @@ article div.mr_social_sharing_wrapper {
       display: table;
       clear: both; }
     @media screen and (min-width: 30.0625em) {
-      .footer .footer-links ul {
+      .footer .footer-links div {
         float: left;
         display: block;
         margin-right: 1.05263%;
         width: 24.21053%; }
-        .footer .footer-links ul:first-child {
+        .footer .footer-links div:first-child {
           margin-left: 12.63158%; }
-        .footer .footer-links ul:last-child {
+        .footer .footer-links div:last-child {
           margin-right: 0; }
-        .footer .footer-links ul:nth-child(3n) {
+        .footer .footer-links div:nth-child(3n) {
           margin-right: 0; }
-        .footer .footer-links ul:nth-child(3n+1) {
+        .footer .footer-links div:nth-child(3n+1) {
           clear: left; }
-        .footer .footer-links ul:after {
+        .footer .footer-links div:after {
           content: "";
           display: table;
           clear: both; } }

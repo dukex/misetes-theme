@@ -25,7 +25,7 @@
     @include clearfix;
     margin-bottom: $base-line-height;
 
-    ul {
+    div {
       @include media($tablet-and-up) {
         &:first-child {
           @include shift(3);

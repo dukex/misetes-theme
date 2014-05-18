@@ -35,6 +35,7 @@ function misetes_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
+		'footer' 	=> __(  'Footer Menu', 'misetes'),
 		'primary' => __( 'Primary Menu', 'misetes' ),
 	) );
 

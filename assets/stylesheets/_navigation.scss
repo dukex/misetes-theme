@@ -12,6 +12,7 @@
   height: $navigation-height;
   width: 100%;
   z-index: 999999999;
+  margin-top: 3em;
 
   .menu-wrapper {
     @include outer-container;
