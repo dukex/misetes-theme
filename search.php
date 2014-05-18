@@ -8,20 +8,17 @@
 get_header(); ?>
 
 	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'misetes' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h1 class="page-title"><?php printf( __( 'Resultados para busca "%s"', 'misetes' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
-			<?php /* Start the Loop */ ?>
+			<div>
 			<?php while ( have_posts() ) : the_post(); ?>
-
 				<?php get_template_part( 'content', 'search' ); ?>
-
 			<?php endwhile; ?>
+			</div>
 
 			<?php misetes_paging_nav(); ?>
 
@@ -31,8 +28,7 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
+	</section>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
