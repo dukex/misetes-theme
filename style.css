@@ -941,29 +941,36 @@ article div.mr_social_sharing_wrapper {
       clear: both; }
     @media screen and (min-width: 30.0625em) {
       .footer .footer-links div {
+        /*
+        @include span-columns(6);
+        @include omega(3n);
+        */
         float: left;
         display: block;
         margin-right: 1.05263%;
-        width: 24.21053%; }
+        width: 32.63158%; }
         .footer .footer-links div:first-child {
-          margin-left: 12.63158%; }
+          /*
+          @include shift(3);
+          */
+          margin-left: 16.84211%; }
         .footer .footer-links div:last-child {
           margin-right: 0; }
-        .footer .footer-links div:nth-child(3n) {
+        .footer .footer-links div:nth-child(2n) {
           margin-right: 0; }
-        .footer .footer-links div:nth-child(3n+1) {
+        .footer .footer-links div:nth-child(2n+1) {
           clear: left; }
         .footer .footer-links div:after {
           content: "";
           display: table;
           clear: both; } }
   .footer .social-links {
-    width: 100px;
+    width: 135px;
     margin: 0 auto;
     margin-bottom: 1.5em; }
     @media screen and (max-width: 30em) {
       .footer .social-links {
-        width: 102px; } }
+        width: 137px; } }
     .footer .social-links img {
       width: 30px; }
   .footer ul {

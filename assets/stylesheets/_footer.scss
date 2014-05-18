@@ -28,22 +28,28 @@
     div {
       @include media($tablet-and-up) {
         &:first-child {
+          /*
           @include shift(3);
+          */
+          @include shift(4);
         }
-
+        /*
         @include span-columns(6);
         @include omega(3n);
+        */
+        @include span-columns(8 of 24);
+        @include omega(2n);
         @include clearfix;
       }
     }
   }
 
   .social-links {
-    width: 100px;
+    width: 135px;
     margin: 0 auto;
     margin-bottom: 1.5em;
     @include media($mobile) {
-      width: 102px;
+      width: 137px;
     }
     img {
       width: 30px;
