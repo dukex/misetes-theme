@@ -44,7 +44,7 @@
 
   <hr>
 
-  <p>Disclaimer area lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nostrum repudiandae saepe.</p>
+<!--   <p>Disclaimer area lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nostrum repudiandae saepe.</p> -->
 
   <p id="credits"><?php printf( __( 'Theme %1$s by %2$s.', 'misetes' ), 'Misetes', '<a href="http://dukex.github.io" rel="designer">Duke</a>' ); ?>
   </p>
