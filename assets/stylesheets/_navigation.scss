@@ -1,10 +1,10 @@
 #site-navigation {
-  $navigation-background: $azul;
-  $navigation-color: transparentize(white, 0.3);
-  $navigation-color-hover: white;
+  $navigation-background: #FFEAEA;
+  $navigation-color: #444;
+  $navigation-color-hover: #333;
   $navigation-height: 50px;
   $navigation-active-link-color: transparentize(white, 0.5);
-  $horizontal-bar-mode: $tablet-and-up;
+  $horizontal-bar-mode: $desktop-and-up;
 
   background-color: $navigation-background;
   border-bottom: 1px solid darken($navigation-background, 10);

@@ -13,9 +13,10 @@
       border-bottom: 0
     }
   }
+
   .widget_search{
     span {
-      color: $azul;
+      color: #333;
       font-weight: 700;
     }
     .search-field, label{
@@ -24,9 +25,9 @@
   }
   h1 {
     font-size: 1em;
-    border-bottom: 1px solid $azul;
-    padding:  5px;
-    color: $azul;
+    border-bottom: 1px solid #333;
+    padding: 5px 0;
+    color: #333;
     font-weight: 700;
   }
   h1 + * {
@@ -54,9 +55,7 @@
     tfoot {
       border: none;
     }
-    td {
-      text-align: center;
-      padding: 0.25em;
+    tbody {
       a {
         width: 83%;
         display: inline-block;
@@ -65,6 +64,16 @@
         text-align: center;
         text-decoration: none;
       }
+    }
+    td {
+      text-align: center;
+      padding: 0.25em;
+    }
+    #prev {
+      text-align: left;
+    }
+    #next {
+      text-align: right;
     }
   }
   .widget_search{

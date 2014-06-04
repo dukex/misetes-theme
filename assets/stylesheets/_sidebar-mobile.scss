@@ -6,11 +6,12 @@
   margin-bottom: $base-line-height;
   position: relative;
   outline: none;
-  float: right;
+  float: left;
   @include media($tablet-and-down) {
-    @include inline-block;
+    display: block;
   }
 }
+
 
 #secondary {
   @include media($tablet-and-down) {
